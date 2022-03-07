@@ -10,14 +10,14 @@ pipeline {
     stage('Build') {
       steps {
         sh '''echo \'Building...\'
-sh npm install'''
+npm install'''
       }
     }
 
     stage('Test') {
       steps {
-        sh '''echo \'Testing...\'
-sh npm run build'''
+        sh '''echo \'Testing..
+npm run build'''
       }
     }
 
